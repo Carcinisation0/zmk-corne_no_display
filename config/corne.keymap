@@ -37,6 +37,21 @@
             bindings = <&mo 3>;
             key-positions = <40 39>;
         };
+
+        apos {
+            bindings = <&kp APOS>;
+            key-positions = <10 22>;
+        };
+
+        quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <9 21>;
+        };
+
+        ctrl_A {
+            bindings = <&kp LC(A)>;
+            key-positions = <25 13>;
+        };
     };
 
     keymap {
