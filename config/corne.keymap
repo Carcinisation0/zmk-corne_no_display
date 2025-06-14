@@ -32,6 +32,11 @@
             bindings = <&mo 1>;
             key-positions = <38 37>;
         };
+
+        L3 {
+            bindings = <&mo 3>;
+            key-positions = <40 39>;
+        };
     };
 
     keymap {
