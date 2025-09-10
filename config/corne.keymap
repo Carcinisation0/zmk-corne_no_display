@@ -51,46 +51,46 @@
         num {
             display-name = "num";
             bindings = <
-&none  &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp PLUS     &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE   &none
-&none  &kp N0     &kp N4  &kp N5  &kp N6  &kp MINUS    &none  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL  &none
-&none  &kp SLASH  &kp N1  &kp N2  &kp N3  &kp EQUAL    &none  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &none
-                          &none   &none   &none        &none  &none                 &trans
+&none  &kp ASTRK  &kp N7  &kp N8  &kp N9  &kp PLUS     &none           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE   &none
+&none  &kp N0     &kp N4  &kp N5  &kp N6  &kp MINUS    &none           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL  &none
+&none  &kp SLASH  &kp N1  &kp N2  &kp N3  &kp EQUAL    &none           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &none
+                          &none   &none   &none        &kp LEFT_SHIFT  &none                 &trans
             >;
         };
 
         game {
             bindings = <
-&kp  &kp TAB           &kp Q  &kp W  &kp E  &kp R        &kp  &kp       &kp UP    &kp        &kp        &kp
-&kp  &kp LSHIFT        &kp A  &kp S  &kp D  &sl 3        &kp  &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER  &kp
-&kp  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp F        &kp  &kp       &kp       &kp        &kp        &kp
-                              &kp    &mo 4  &kp SPACE    &kp  &kp       &kp
+&none  &kp TAB           &kp Q  &kp W  &kp E  &kp R        &none  &none     &kp UP    &none      &none      &none
+&none  &kp LSHIFT        &kp A  &kp S  &kp D  &sl 3        &none  &kp LEFT  &kp DOWN  &kp RIGHT  &kp ENTER  &none
+&none  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp F        &none  &none     &none     &none      &none      &none
+                                &none  &mo 4  &kp SPACE    &none  &none     &none
             >;
         };
 
         gameplus {
             bindings = <
-&kp  &kp F5        &kp N1     &kp N2  &kp N3  &kp N4    &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp LEFT_ALT  &kp SLASH  &kp K   &kp Y   &kp V     &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp L         &kp I      &kp T   &kp N5  &kp N6    &kp  &kp  &kp  &kp  &kp  &kp
-                              &kp J   &kp G   &kp M     &kp  &kp  &kp
+&none  &kp F5        &kp N1     &kp N2  &kp N3  &kp N4    &none  &none  &none  &none  &none  &none
+&none  &kp LEFT_ALT  &kp SLASH  &kp K   &kp Y   &kp V     &none  &none  &none  &none  &none  &none
+&none  &kp L         &kp I      &kp T   &kp N5  &kp N6    &none  &none  &none  &none  &none  &none
+                                &kp J   &kp G   &kp M     &none  &none  &none
             >;
         };
 
         nav {
             bindings = <
-&kp  &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    &kp  &kp LG(L)     &kp           &kp  &kp  &kp
-&kp  &kp ENTER         &kp LEFT      &kp DOWN          &kp RIGHT      &kp PG_UP            &kp  &kp C_VOL_DN  &kp C_VOL_UP  &kp  &kp  &kp
-&kp  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        &kp  &kp           &kp           &kp  &kp  &kp
-                                     &kp               &kp            &kp                  &kp  &kp           &kp
+&none  &kp ESC           &kp DEL       &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    &none  &kp LG(L)     &none         &none  &none  &none
+&none  &kp ENTER         &kp LEFT      &kp DOWN          &kp RIGHT      &kp PG_UP            &none  &kp C_VOL_DN  &kp C_VOL_UP  &none  &none  &none
+&none  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        &none  &none         &none         &none  &none  &none
+                                       &none             &none          &none                &none  &none         &none
             >;
         };
 
         funkcje {
             bindings = <
-&kp  &kp     &kp     &kp     &kp F11   &kp       &kp     &kp F12   &kp     &kp     &kp      &kp
-&kp  &kp F1  &kp F2  &kp F3  &kp F4    &kp F5    &kp F6  &kp F7    &kp F8  &kp F9  &kp F10  &kp
-&kp  &kp     &kp     &kp     &kp CAPS  &kp       &kp     &kp CAPS  &kp     &kp     &kp      &kp
-                     &kp     &kp       &kp       &kp     &kp       &kp
+&none  &none   &none   &none   &kp F11   &none     &none   &kp F12   &none   &none   &none    &none
+&none  &kp F1  &kp F2  &kp F3  &kp F4    &kp F5    &kp F6  &kp F7    &kp F8  &kp F9  &kp F10  &none
+&none  &none   &none   &none   &kp CAPS  &none     &none   &kp CAPS  &none   &none   &none    &none
+                       &none   &none     &none     &none   &none     &none
             >;
         };
 
