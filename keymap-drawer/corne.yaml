@@ -217,8 +217,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   funkcje:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
