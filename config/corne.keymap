@@ -58,6 +58,15 @@
             >;
         };
 
- 
+
+        game {
+            bindings = <
+&none  &kp TAB           &kp Q  &kp W   &kp E  &kp R        &trans  &trans          &kp UP_ARROW  &trans     &trans     &none
+&none  &kp RIGHT_SHIFT   &kp A  &kp S   &kp D  &sl 3        &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp ENTER  &none
+&none  &kp LEFT_CONTROL  &kp Z  &kp X   &kp C  &kp F        &trans  &trans          &trans        &trans     &trans     &none
+                                  &trans  &mo 4  &kp SPACE    &trans  &trans          &trans
+            >;
+        };
+
     };
 };
