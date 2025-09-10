@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - LGUI
-  - base
-  - {t: '$$mdi:keyboard-space$$', h: base}
-  - {t: '$$mdi:keyboard-return$$', h: base}
-  - base
   - $$mdi:apple-keyboard-option$$
+  - nav
+  - {t: '$$mdi:keyboard-space$$', h: num}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - RIGHT WIN
   num:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '*'
@@ -82,7 +82,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
