@@ -232,10 +232,10 @@ layers:
   - F1
   - F2
   - F3
-  - F4
+  - {t: F4, type: held}
   - F5
   - F6
-  - F7
+  - {t: F7, type: held alternate}
   - F8
   - F9
   - F10
@@ -254,8 +254,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   mouse:
@@ -305,3 +305,58 @@ combos:
 - p: [26, 27]
   k: Ctl+C
   l: [base]
+- p: [28, 27]
+  k: Ctl+V
+  l: [base]
+- p: [17, 16]
+  k: Ctl+Z
+  l: [base]
+- p: [5, 4]
+  k: Ctl+Y
+  l: [base]
+- p: [2, 3]
+  k: Ctl+F
+  l: [base]
+- p: [13, 14]
+  k: Ctl+A
+  l: [base]
+- p: [25, 26]
+  k: X
+  l: [base]
+- p: [7, 8]
+  k: .
+  l: [base]
+- p: [9, 8]
+  k: '"'
+  l: [base]
+- p: [27, 26, 28]
+  k: Gui+Sft+S
+  l: [nav]
+- p: [16, 15, 14]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [base, num]
+- p: [19, 20, 21]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [base, num]
+- p: [2, 3]
+  k: KP COMMA
+  l: [num]
+- p: [4, 3]
+  k: {t: ., s: '>'}
+  l: [num]
+- p: [14, 15]
+  k: {t: '-', s: _}
+  l: [num]
+- p: [16, 15]
+  k: +
+  l: [num]
+- p: [26, 27]
+  k: KP DIVIDE
+  l: [num]
+- p: [28, 27]
+  k: KP MULTIPLY
+  l: [num]
+- p: [16, 38]
+  k: {t: funkcje, h: '$$mdi:gesture-tap-hold$$'}
+- p: [19, 39]
+  k: {t: funkcje, h: '$$mdi:gesture-tap-hold$$'}
