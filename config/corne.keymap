@@ -34,6 +34,118 @@
             key-positions = <26 27>;
             layers = <0>;
         };
+
+        ctrl_v {
+            bindings = <&kp LC(V)>;
+            key-positions = <28 27>;
+            layers = <0>;
+        };
+
+        ctrl_z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <17 16>;
+            layers = <0>;
+        };
+
+        ctrl_y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <5 4>;
+            layers = <0>;
+        };
+
+        ctrl_f {
+            bindings = <&kp LC(F)>;
+            key-positions = <2 3>;
+            layers = <0>;
+        };
+
+        ctrl_a {
+            bindings = <&kp LC(A)>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        ctrl_x {
+            bindings = <&kp X>;
+            key-positions = <25 26>;
+            layers = <0>;
+        };
+
+        apos {
+            bindings = <&kp APOS>;
+            key-positions = <7 8>;
+            layers = <0>;
+        };
+
+        quote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <9 8>;
+            layers = <0>;
+        };
+
+        screen {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <27 26 28>;
+            layers = <4>;
+        };
+
+        enter_left {
+            bindings = <&kp ENTER>;
+            key-positions = <16 15 14>;
+            layers = <0 1>;
+        };
+
+        enter_right {
+            bindings = <&kp ENTER>;
+            key-positions = <19 20 21>;
+            layers = <0 1>;
+        };
+
+        num_comma {
+            bindings = <&kp KP_COMMA>;
+            key-positions = <2 3>;
+            layers = <1>;
+        };
+
+        num_dot {
+            bindings = <&kp DOT>;
+            key-positions = <4 3>;
+            layers = <1>;
+        };
+
+        num_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <14 15>;
+            layers = <1>;
+        };
+
+        num_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <16 15>;
+            layers = <1>;
+        };
+
+        num_div {
+            bindings = <&kp KP_DIVIDE>;
+            key-positions = <26 27>;
+            layers = <1>;
+        };
+
+        num_mult {
+            bindings = <&kp KP_MULTIPLY>;
+            key-positions = <28 27>;
+            layers = <1>;
+        };
+
+        fun_left {
+            bindings = <&sl 5>;
+            key-positions = <16 38>;
+        };
+
+        fun_right {
+            bindings = <&sl 5>;
+            key-positions = <19 39>;
+        };
     };
 
     keymap {
