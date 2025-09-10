@@ -43,6 +43,49 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: base}
   - base
   - $$mdi:apple-keyboard-option$$
+  num:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - KP MULTIPLY
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - +
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - (
+  - )
+  - {t: \, s: '|'}
+  - '|'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '0', s: )}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - MINUS ,
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - _
+  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: /, s: '?'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - EQUAL ,
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '{'
+  - '}'
+  - {t: '`', s: '~'}
+  - '~'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [26, 27]
   k: Ctl+C
