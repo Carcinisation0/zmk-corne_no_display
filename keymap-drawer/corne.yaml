@@ -26,11 +26,11 @@ layers:
   - O
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Z
   - X
   - C
   - D
   - V
+  - Z
   - K
   - H
   - {t: ',', s: <}
