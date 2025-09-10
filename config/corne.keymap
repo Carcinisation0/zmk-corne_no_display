@@ -7,9 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/ext_power.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -160,7 +157,7 @@
             bindings = <
 &none  &kp Q  &kp W  &kp F         &kp P  &kp B          &kp J            &kp L          &kp U          &kp Y    &kp SEMI  &none
 &none  &kp A  &kp R  &kp S         &kp T  &kp G          &kp M            &kp N          &kp E          &kp I    &kp O     &none
-&none  &kp Z  &kp X  &kp C         &kp D  &kp V          &kp K            &kp H          &kp COMMA      &kp DOT  &kp SQT   &none
+&none  &kp X  &kp C  &kp D         &kp V  &kp Z          &kp K            &kp H          &kp COMMA      &kp DOT  &kp SQT   &none
                      &kp LEFT_ALT  &mo 4  &lt 1 SPACE    &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp RIGHT_WIN
             >;
         };
@@ -204,10 +201,10 @@
 
         funkcje {
             bindings = <
-&none  &none       &none   &none   &kp F11   &none     &none   &kp F12   &none   &none   &none    &none
-&none  &kp F1      &kp F2  &kp F3  &kp F4    &kp F5    &kp F6  &kp F7    &kp F8  &kp F9  &kp F10  &none
-&none  &bl BL_OFF  &rgb_ug RGB_OFF   &none   &kp CAPS  &none     &none   &kp CAPS  &none   &none   &none    &none
-                           &none   &none     &none     &none   &none     &none
+&none  &none       &none            &none   &kp F11   &none     &none   &kp F12   &none   &none   &none    &none
+&none  &kp F1      &kp F2           &kp F3  &kp F4    &kp F5    &kp F6  &kp F7    &kp F8  &kp F9  &kp F10  &none
+&none  &bl BL_OFF  &rgb_ug RGB_OFF  &none   &kp CAPS  &none     &none   &kp CAPS  &none   &none   &none    &none
+                                    &none   &none     &none     &none   &none     &none
             >;
         };
 
