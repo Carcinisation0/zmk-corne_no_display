@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne, layout_name: default_transform}
 layers:
   base:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-tab$$
   - B
   - L
   - D
@@ -12,8 +12,8 @@ layers:
   - O
   - U
   - {t: ;, s: ':'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-esc$$
   - N
   - R
   - T
@@ -24,8 +24,8 @@ layers:
   - A
   - E
   - I
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - LEFT WIN
   - X
   - Z
   - M
@@ -35,16 +35,16 @@ layers:
   - F
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: '''', s: '"'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - nav
   - {t: '$$mdi:keyboard-space$$', h: num, type: held}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   - RIGHT WIN
   num:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+Z
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -56,7 +56,7 @@ layers:
   - {t: \, s: '|'}
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -67,7 +67,7 @@ layers:
   - {t: ']', s: '}'}
   - _
   - {t: '=', s: +}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
   - {t: '5', s: '%'}
@@ -218,10 +218,10 @@ layers:
 combos:
 - p: [26, 27]
   k: Ctl+C
-  l: [base]
+  l: [nav]
 - p: [28, 27]
   k: Ctl+V
-  l: [base]
+  l: [nav]
 - p: [17, 16]
   k: Ctl+Z
   l: [base]
@@ -231,7 +231,7 @@ combos:
 - p: [2, 3]
   k: Ctl+F
   l: [base]
-- p: [13, 14]
+- p: [13, 16]
   k: Ctl+A
   l: [base]
 - p: [25, 26]
@@ -246,29 +246,11 @@ combos:
 - p: [27, 26, 28]
   k: Gui+Sft+S
   l: [nav]
-- p: [16, 15, 14]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [base, num]
-- p: [19, 20, 21]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [base, num]
 - p: [2, 3]
   k: KP COMMA
   l: [num]
 - p: [4, 3]
   k: {t: ., s: '>'}
-  l: [num]
-- p: [14, 15]
-  k: {t: '-', s: _}
-  l: [num]
-- p: [16, 15]
-  k: +
-  l: [num]
-- p: [26, 27]
-  k: KP DIVIDE
-  l: [num]
-- p: [28, 27]
-  k: KP MULTIPLY
   l: [num]
 - p: [16, 38]
   k: {t: base, h: '$$mdi:gesture-tap-hold$$'}
