@@ -43,31 +43,31 @@
         ctrl_z {
             bindings = <&kp LC(Z)>;
             key-positions = <17 16>;
-            layers = <0>;
+            layers = <4>;
         };
 
         ctrl_y {
             bindings = <&kp LC(Y)>;
             key-positions = <5 4>;
-            layers = <0>;
+            layers = <4>;
         };
 
         ctrl_f {
             bindings = <&kp LC(F)>;
             key-positions = <2 3>;
-            layers = <0>;
+            layers = <4>;
         };
 
         ctrl_a {
             bindings = <&kp LC(A)>;
             key-positions = <13 16>;
-            layers = <0>;
+            layers = <4>;
         };
 
         ctrl_x {
             bindings = <&kp X>;
             key-positions = <25 26>;
-            layers = <0>;
+            layers = <4>;
         };
 
         apos {
@@ -114,7 +114,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        base_layer {
+        base_layer { // gallium 
             display-name = "base";
             bindings = <
 &kp TAB       &kp B  &kp L  &kp D      &kp C  &kp V          &kp J                  &kp Y          &kp O          &kp U    &kp SEMI   &kp BACKSPACE
