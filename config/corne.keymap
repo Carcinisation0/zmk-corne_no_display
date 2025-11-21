@@ -31,13 +31,13 @@
         ctrl_c {
             bindings = <&kp LC(C)>;
             key-positions = <26 27>;
-            layers = <0>;
+            layers = <4>;
         };
 
         ctrl_v {
             bindings = <&kp LC(V)>;
             key-positions = <28 27>;
-            layers = <0>;
+            layers = <4>;
         };
 
         ctrl_z {
@@ -60,7 +60,7 @@
 
         ctrl_a {
             bindings = <&kp LC(A)>;
-            key-positions = <13 14>;
+            key-positions = <13 16>;
             layers = <0>;
         };
 
@@ -88,18 +88,6 @@
             layers = <4>;
         };
 
-        enter_left {
-            bindings = <&kp ENTER>;
-            key-positions = <16 15 14>;
-            layers = <0 1>;
-        };
-
-        enter_right {
-            bindings = <&kp ENTER>;
-            key-positions = <19 20 21>;
-            layers = <0 1>;
-        };
-
         num_comma {
             bindings = <&kp KP_COMMA>;
             key-positions = <2 3>;
@@ -109,30 +97,6 @@
         num_dot {
             bindings = <&kp DOT>;
             key-positions = <4 3>;
-            layers = <1>;
-        };
-
-        num_minus {
-            bindings = <&kp MINUS>;
-            key-positions = <14 15>;
-            layers = <1>;
-        };
-
-        num_plus {
-            bindings = <&kp PLUS>;
-            key-positions = <16 15>;
-            layers = <1>;
-        };
-
-        num_div {
-            bindings = <&kp KP_DIVIDE>;
-            key-positions = <26 27>;
-            layers = <1>;
-        };
-
-        num_mult {
-            bindings = <&kp KP_MULTIPLY>;
-            key-positions = <28 27>;
             layers = <1>;
         };
 
@@ -153,20 +117,20 @@
         base_layer {
             display-name = "base";
             bindings = <
-&none  &kp B  &kp L  &kp D         &kp C  &kp V          &kp J                  &kp Y          &kp O          &kp U    &kp SEMI  &none
-&none  &kp N  &kp R  &kp T         &kp S  &kp G          &kp P                  &kp H          &kp A          &kp E    &kp I     &none
-&none  &kp X  &kp Z  &kp M         &kp W  &kp Q          &kp K                  &kp F          &kp COMMA      &kp DOT  &kp SQT   &none
-                     &kp LEFT_ALT  &mo 4  &lt 1 SPACE    &mt RIGHT_SHIFT SPACE  &sk RIGHT_ALT  &kp RIGHT_WIN
+&kp TAB       &kp B  &kp L  &kp D      &kp C  &kp V          &kp J                  &kp Y          &kp O          &kp U    &kp SEMI   &kp BACKSPACE
+&kp ESC       &kp N  &kp R  &kp T      &kp S  &kp G          &kp P                  &kp H          &kp A          &kp E    &kp I      &kp ENTER
+&kp LEFT_WIN  &kp X  &kp Z  &kp M      &kp W  &kp Q          &kp K                  &kp F          &kp COMMA      &kp DOT  &kp SLASH  &none
+                            &kp LCTRL  &mo 4  &lt 1 SPACE    &mt RIGHT_SHIFT SPACE  &sk RIGHT_ALT  &kp RIGHT_WIN
             >;
         };
 
         num {
             display-name = "num";
             bindings = <
-&none  &kp N6     &kp N7  &kp N8           &kp N9  &kp PLUS     &none           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE   &none
-&none  &kp N1     &kp N2  &kp N3           &kp N4  &kp MINUS    &none           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL  &none
-&none  &kp SLASH  &kp N5  &kp KP_MULTIPLY  &kp N0  &kp EQUAL    &none           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &none
-                          &none            &none   &none        &kp LEFT_SHIFT  &none                 &trans
+&kp LC(Z)  &kp N6     &kp N7  &kp N8           &kp N9  &kp PLUS     &none           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE   &none
+&kp ENTER  &kp N1     &kp N2  &kp N3           &kp N4  &kp MINUS    &none           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL  &kp ENTER
+&none      &kp SLASH  &kp N5  &kp KP_MULTIPLY  &kp N0  &kp EQUAL    &none           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &none
+                              &none            &none   &none        &kp LEFT_SHIFT  &none                 &trans
             >;
         };
 
