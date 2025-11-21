@@ -8,7 +8,7 @@ layers:
   - C
   - V
   - J
-  - Y
+  - F
   - O
   - U
   - {t: ;, s: ':'}
@@ -19,7 +19,7 @@ layers:
   - T
   - {t: S, type: held}
   - G
-  - P
+  - Y
   - {t: H, type: held alternate}
   - A
   - E
@@ -32,7 +32,7 @@ layers:
   - W
   - Q
   - K
-  - F
+  - P
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
