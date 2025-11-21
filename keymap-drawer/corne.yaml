@@ -224,19 +224,19 @@ combos:
   l: [nav]
 - p: [17, 16]
   k: Ctl+Z
-  l: [base]
+  l: [nav]
 - p: [5, 4]
   k: Ctl+Y
-  l: [base]
+  l: [nav]
 - p: [2, 3]
   k: Ctl+F
-  l: [base]
+  l: [nav]
 - p: [13, 16]
   k: Ctl+A
-  l: [base]
+  l: [nav]
 - p: [25, 26]
   k: X
-  l: [base]
+  l: [nav]
 - p: [7, 8]
   k: .
   l: [base]
