@@ -247,7 +247,7 @@ combos:
   k: Gui+Sft+S
   l: [nav]
 - p: [2, 3]
-  k: KP COMMA
+  k: {t: ',', s: <}
   l: [num]
 - p: [4, 3]
   k: {t: ., s: '>'}
