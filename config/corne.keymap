@@ -89,15 +89,15 @@
         };
 
         num_comma {
-            bindings = <&kp KP_COMMA>;
+            bindings = <&kp COMMA>;
             key-positions = <2 3>;
-            layers = <num>;
+            layers = <1>;
         };
 
         num_dot {
             bindings = <&kp DOT>;
             key-positions = <4 3>;
-            layers = <num>;
+            layers = <1>;
         };
 
         fun_left {
