@@ -91,13 +91,13 @@
         num_comma {
             bindings = <&kp KP_COMMA>;
             key-positions = <2 3>;
-            layers = <1>;
+            layers = <num>;
         };
 
         num_dot {
             bindings = <&kp DOT>;
             key-positions = <4 3>;
-            layers = <1>;
+            layers = <num>;
         };
 
         fun_left {
