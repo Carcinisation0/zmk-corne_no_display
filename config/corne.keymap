@@ -117,10 +117,10 @@
         base_layer {
             display-name = "base";
             bindings = <
-&kp TAB       &kp B  &kp L  &kp D      &kp C  &kp V          &kp J                  &kp F          &kp O          &kp U    &kp SEMI   &kp BACKSPACE
-&kp ESC       &kp N  &kp R  &kp T      &kp S  &kp G          &kp Y                  &kp H          &kp A          &kp E    &kp I      &kp ENTER
-&kp LEFT_WIN  &kp X  &kp Z  &kp M      &kp W  &kp Q          &kp K                  &kp P          &kp COMMA      &kp DOT  &kp SLASH  &none
-                            &kp LCTRL  &mo 4  &lt 1 SPACE    &mt RIGHT_SHIFT SPACE  &sk RIGHT_ALT  &kp RIGHT_WIN
+&kp TAB       &kp B  &kp L  &kp D      &kp C  &kp V          &kp J                  &kp F          &kp O      &kp U    &kp SEMI   &kp BACKSPACE
+&kp ESC       &kp N  &kp R  &kp T      &kp S  &kp G          &kp Y                  &kp H          &kp A      &kp E    &kp I      &kp ENTER
+&kp LEFT_WIN  &kp X  &kp Z  &kp M      &kp W  &kp Q          &kp K                  &kp P          &kp COMMA  &kp DOT  &kp SLASH  &none
+                            &kp LCTRL  &mo 4  &lt 1 SPACE    &mt RIGHT_SHIFT SPACE  &sk RIGHT_ALT  &mo 5
             >;
         };
 
@@ -158,6 +158,15 @@
 &none  &kp ENTER         &kp LEFT              &kp DOWN          &kp RIGHT      &kp PG_UP            &none  &kp C_VOL_DN  &kp C_VOL_UP  &none  &none  &none
 &none  &kp LEFT_CONTROL  &mt LEFT_ALT LG(TAB)  &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        &none  &none         &none         &none  &to 2  &none
                                                &none             &none          &none                &none  &none         &none
+            >;
+        };
+
+        fun {
+            bindings = <
+&none  &none  &none  &none  &none  &none    &none  &kp F7  &kp F8  &kp F9  &kp F12  &none
+&none  &none  &none  &none  &none  &none    &none  &kp F4  &kp F5  &kp F6  &kp F11  &none
+&none  &none  &none  &none  &none  &none    &none  &kp F1  &kp F2  &kp F3  &kp F10  &none
+                     &none  &none  &none    &none  &none   &none
             >;
         };
     };
