@@ -221,7 +221,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB ON
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F7
   - F8
@@ -233,7 +233,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB OFF
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F4
   - F5
@@ -241,11 +241,11 @@ layers:
   - F11
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB EFR
+  - RGB SPI
+  - RGB BRI
+  - RGB BRD
+  - RGB EFF
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
@@ -274,7 +274,7 @@ combos:
 - p: [2, 3]
   k: Ctl+F
   l: [nav]
-- p: [13, 16]
+- p: [14, 15, 16]
   k: Ctl+A
   l: [nav]
 - p: [25, 26]
