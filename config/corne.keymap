@@ -132,16 +132,16 @@
 &kp LC(Z)  &kp N6     &kp N7  &kp N8           &kp N9  &kp PLUS     &none           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PIPE   &none
 &kp ENTER  &kp N1     &kp N2  &kp N3           &kp N4  &kp MINUS    &none           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp UNDER      &kp EQUAL  &kp ENTER
 &none      &kp SLASH  &kp N5  &kp KP_MULTIPLY  &kp N0  &kp EQUAL    &none           &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &none
-                              &none            &none   &none        &kp LEFT_SHIFT  &none                 &trans
+                              &none            &none   &none        &mt LEFT_SHIFT SPACE &none                 &trans
             >;
         };
 
         game {
             bindings = <
-&none  &kp TAB           &kp Q  &kp W  &kp E  &kp R        &none  &none        &kp UP    &none          &none      &none
-&none  &kp LSHIFT        &kp A  &kp S  &kp D  &sl 3        &none  &kp LEFT     &kp DOWN  &kp RIGHT      &kp ENTER  &none
-&none  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp F        &none  &kp PAGE_UP  &none     &kp PAGE_DOWN  &to 0      &none
-                                &none  &mo 4  &kp SPACE    &none  &none        &none
+&kp U  &kp TAB           &kp Q  &kp W    &kp E  &kp R        &none  &none        &kp UP    &none          &none      &none
+&kp N  &kp LSHIFT        &kp A  &kp S    &kp D  &sl 3        &none  &kp LEFT     &kp DOWN  &kp RIGHT      &kp ENTER  &none
+&kp K  &kp LEFT_CONTROL  &kp Z  &kp X    &kp C  &kp F        &none  &kp PAGE_UP  &none     &kp PAGE_DOWN  &to 0      &none
+                                &kp LALT &mo 4  &kp SPACE    &none  &none        &none
             >;
         };
 
