@@ -118,19 +118,19 @@
         base_layer {
             display-name = "base";
             bindings = <
-&kp TAB       &kp B  &kp L  &kp D  &kp C  &kp V                     &kp J                  &kp F          &kp O      &kp U    &kp SEMI   &kp BACKSPACE
-&kp ESC       &kp N  &kp R  &kp T  &kp S  &kp G                     &kp Y                  &kp H          &kp A      &kp E    &kp I      &kp ENTER
-&kp LEFT_WIN  &kp X  &kp Z  &kp M  &kp W  &kp Q                     &kp K                  &kp P          &kp COMMA  &kp DOT  &kp SLASH  &none
-                            &mo 4  &mo 1  &mt LEFT_CONTROL SPACE    &mt RIGHT_SHIFT SPACE  &sk RIGHT_ALT  &mo 5
+&kp ESCAPE     &kp B  &kp L  &kp D  &kp C  &kp V                     &kp J                  &kp F          &kp O      &kp U    &kp SEMI   &kp BACKSPACE
+&kp BACKSPACE  &kp N  &kp R  &kp T  &kp S  &kp G                     &kp Y                  &kp H          &kp A      &kp E    &kp I      &kp ENTER
+&kp LEFT_WIN   &kp X  &kp Z  &kp M  &kp W  &kp Q                     &kp K                  &kp P          &kp COMMA  &kp DOT  &kp SLASH  &none
+                             &mo 1  &mo 4  &mt LEFT_CONTROL SPACE    &mt RIGHT_SHIFT SPACE  &sk RIGHT_ALT  &mo 5
             >;
         };
 
         num {
             display-name = "num";
             bindings = <
-&kp LC(Z)  &kp N6     &kp N7           &kp N8     &kp N9    &kp N0       &none                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &kp PIPE   &none
-&kp ENTER  &kp N1     &kp N2           &kp N3     &kp N4    &kp N5       &none                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &kp EQUAL  &kp ENTER
-&none      &kp SLASH  &kp KP_MULTIPLY  &kp MINUS  &kp PLUS  &kp EQUAL    &none                 &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &none
+&kp N0     &kp N6     &kp N7           &kp N8     &kp N9    &kp N0       &none                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &kp PIPE   &none
+&kp N5     &kp N1     &kp N2           &kp N3     &kp N4    &kp N5       &none                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &kp EQUAL  &kp ENTER
+&kp EQUAL  &kp SLASH  &kp KP_MULTIPLY  &kp MINUS  &kp PLUS  &kp EQUAL    &none                 &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &none
                                        &none      &none     &none        &mt LEFT_SHIFT SPACE  &none                 &trans
             >;
         };
@@ -168,6 +168,15 @@
 &none  &none            &rgb_ug RGB_COLOR_HSB(255,230,199)  &none            &none            &rgb_ug RGB_OFF    &none  &kp F4  &kp F5  &kp F6  &kp F11  &none
 &none  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(128,100,10)   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF    &none  &kp F1  &kp F2  &kp F3  &kp F10  &none
                                                             &none            &none            &none              &none  &none   &none
+            >;
+        };
+
+        colemak_dh_mod {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
