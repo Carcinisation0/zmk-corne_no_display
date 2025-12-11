@@ -121,8 +121,8 @@ layers:
   - PgUp
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
-  - {t: base, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: base, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - nav
   - $$mdi:keyboard-space$$
@@ -207,8 +207,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: game, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: game, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
