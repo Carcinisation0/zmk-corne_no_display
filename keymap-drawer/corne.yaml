@@ -49,10 +49,10 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - +
+  - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - (
-  - )
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -61,18 +61,18 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
-  - {t: '-', s: _}
+  - {t: '5', s: '%'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - (
+  - )
   - _
   - {t: '=', s: +}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: /, s: '?'}
-  - {t: '5', s: '%'}
   - KP MULTIPLY
-  - {t: '0', s: )}
+  - {t: '-', s: _}
+  - +
   - {t: '=', s: +}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '{'
@@ -218,7 +218,7 @@ layers:
   fun:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RGB COLOR HSB(131, 80, 159)
+  - RGB COLOR HSB(131,80,159)
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB ON
@@ -230,7 +230,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - RGB COLOR HSB(255, 230, 199)
+  - RGB COLOR HSB(255,230,199)
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB OFF
@@ -242,7 +242,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB EFR
-  - RGB COLOR HSB(128, 100, 10)
+  - RGB COLOR HSB(128,100,10)
   - RGB BRI
   - RGB BRD
   - RGB EFF
