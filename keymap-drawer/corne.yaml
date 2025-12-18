@@ -11,7 +11,7 @@ layers:
   - F
   - O
   - U
-  - {t: ;, s: ':'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:backspace$$', type: backspace}
   - N
@@ -31,11 +31,11 @@ layers:
   - M
   - W
   - Q
-  - K
+  - {t: ;, s: ':'}
   - P
   - {t: ',', s: <}
+  - K
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - nav
