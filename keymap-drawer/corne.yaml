@@ -26,16 +26,16 @@ layers:
   - I
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - LEFT WIN
-  - X
+  - K
   - Z
   - M
   - W
   - Q
-  - {t: ;, s: ':'}
+  - X
   - P
   - {t: ',', s: <}
-  - K
-  - {t: ., s: '>'}
+  - .
+  - {t: ;, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - nav
