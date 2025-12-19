@@ -11,9 +11,9 @@ layers:
   - F
   - O
   - U
-  - {t: /, s: '?'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: ;, s: ':'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - Q
   - N
   - R
   - T
@@ -24,8 +24,8 @@ layers:
   - A
   - E
   - I
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - LEFT WIN
+  - X
+  - $$mdi:apple-keyboard-shift$$
   - K
   - Z
   - M
@@ -35,7 +35,7 @@ layers:
   - P
   - {t: ',', s: <}
   - .
-  - {t: ;, s: ':'}
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - nav
