@@ -137,10 +137,10 @@
 
         game {
             bindings = <
-&kp U  &kp TAB           &kp Q  &kp W     &kp E  &kp R        &none  &none        &kp UP    &none          &none      &none
-&kp N  &kp LSHIFT        &kp A  &kp S     &kp D  &sl 3        &none  &kp LEFT     &kp DOWN  &kp RIGHT      &kp ENTER  &none
-&kp K  &kp LEFT_CONTROL  &kp Z  &kp X     &kp C  &kp F        &none  &kp PAGE_UP  &none     &kp PAGE_DOWN  &none      &to 0
-                                &kp LALT  &mo 4  &kp SPACE    &none  &none        &none
+&kp U  &kp TAB           &kp Q  &kp W     &kp E  &kp R        &kp TILDE  &none        &kp UP    &none          &none      &none
+&kp N  &kp LSHIFT        &kp A  &kp S     &kp D  &sl 3        &none      &kp LEFT     &kp DOWN  &kp RIGHT      &kp ENTER  &kp TILDE
+&kp K  &kp LEFT_CONTROL  &kp Z  &kp X     &kp C  &kp F        &none      &kp PAGE_UP  &none     &kp PAGE_DOWN  &none      &to 0
+                                &kp LALT  &mo 4  &kp SPACE    &none      &none        &none
             >;
         };
 
