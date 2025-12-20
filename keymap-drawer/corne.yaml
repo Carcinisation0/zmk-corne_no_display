@@ -93,7 +93,7 @@ layers:
   - W
   - E
   - R
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -110,7 +110,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
   - K
   - $$mdi:apple-keyboard-control$$
   - Z
