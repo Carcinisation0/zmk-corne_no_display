@@ -138,7 +138,7 @@
         game {
             bindings = <
 &kp U  &kp TAB           &kp Q  &kp W     &kp E  &kp R        &kp TILDE  &none        &kp UP    &none          &none      &none
-&kp N  &kp LSHIFT        &kp A  &kp S     &kp D  &sl 3        &none      &kp LEFT     &kp DOWN  &kp RIGHT      &kp ENTER  &kp TILDE
+&kp N  &kp LSHIFT        &kp A  &kp S     &kp D  &sl 3        &kp LG(G)  &kp LEFT     &kp DOWN  &kp RIGHT      &kp ENTER  &kp TILDE
 &kp K  &kp LEFT_CONTROL  &kp Z  &kp X     &kp C  &kp F        &none      &kp PAGE_UP  &none     &kp PAGE_DOWN  &none      &to 0
                                 &kp LALT  &mo 4  &kp SPACE    &none      &none        &none
             >;
@@ -146,10 +146,10 @@
 
         gameplus {
             bindings = <
-&kp TILDE  &kp F5        &kp N1     &kp N2  &kp N3  &kp N4    &none  &none  &none  &none  &none  &none
-&none      &kp LEFT_ALT  &kp SLASH  &kp K   &kp Y   &kp V     &none  &none  &none  &none  &none  &none
-&none      &kp L         &kp I      &kp T   &kp N5  &kp N6    &none  &none  &none  &none  &none  &none
-                                    &kp J   &kp G   &kp M     &none  &none  &none
+&kp TILDE  &kp F5        &kp N1     &kp N2  &kp N3  &kp N4    &none      &none  &none  &none  &none  &none
+&none      &kp LEFT_ALT  &kp SLASH  &kp K   &kp Y   &kp V     &kp LG(G)  &none  &none  &none  &none  &none
+&none      &kp L         &kp I      &kp T   &kp N5  &kp N6    &none      &none  &none  &none  &none  &none
+                                    &kp J   &kp G   &kp M     &none      &none  &none
             >;
         };
 
