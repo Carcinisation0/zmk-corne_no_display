@@ -25,7 +25,7 @@ layers:
   - E
   - I
   - X
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - K
   - Z
   - M
@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: 'Gui+$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
   - PLAY PAUSE
