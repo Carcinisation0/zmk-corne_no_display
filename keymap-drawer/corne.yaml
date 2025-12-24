@@ -105,7 +105,7 @@ layers:
   - S
   - D
   - {t: gameplus, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+G
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -148,7 +148,7 @@ layers:
   - K
   - Y
   - {t: V, type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
