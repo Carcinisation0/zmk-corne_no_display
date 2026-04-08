@@ -262,6 +262,48 @@ combos:
 - p: [26, 27]
   k: Ctl+C
   l: [nav]
+- p: [27, 28]
+  k: Ctl+V
+  l: [nav]
+- p: [2, 3]
+  k: Ctl+F
+  l: [nav]
+- p: [16, 17]
+  k: Ctl+Z
+  l: [nav]
+- p: [4, 5]
+  k: Ctl+Y
+  l: [nav]
+- p: [13, 14]
+  k: Ctl+X
+  l: [nav]
+- p: [26, 27, 28]
+  k: Gui+Sft+S
+  l: [nav]
+- p: [3, 4]
+  k: {t: ., s: '>'}
+  l: [num]
+- p: [2, 3]
+  k: {t: ',', s: <}
+  l: [num]
+- p: [14, 15, 16]
+  k: {h: '=', s: +}
+  l: [num]
+- p: [7, 8]
+  k: {t: '''', s: '"'}
+  l: [base]
+- p: [8, 9]
+  k: '"'
+  l: [base]
+- p: [31, 32]
+  k: {t: ;, s: ':'}
+  l: [base]
+- p: [32, 33]
+  k: ':'
+  l: [base]
+- p: [26, 27]
+  k: Ctl+C
+  l: [nav]
 - p: [28, 27]
   k: Ctl+V
   l: [nav]
