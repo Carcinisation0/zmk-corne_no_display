@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: corne, layout_name: default_transform}
+layout: {zmk_keyboard: corne}
 layers:
   base:
   - $$mdi:keyboard-esc$$
@@ -17,10 +17,10 @@ layers:
   - C
   - R
   - S
-  - {t: T, type: held}
+  - T
   - G
   - M
-  - {t: N, type: held alternate}
+  - N
   - E
   - I
   - A
@@ -38,11 +38,11 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
-  - nav
-  - {t: '$$mdi:keyboard-space$$', h: num, type: held}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$', type: held alternate}
+  - '4'
+  - {t: '$$mdi:keyboard-space$$', h: num}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
-  - fun
+  - '5'
   num:
   - {t: '0', s: )}
   - {t: '6', s: ^}
@@ -86,7 +86,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  game:
+  '2':
   - {t: '1', s: '!'}
   - $$mdi:keyboard-tab$$
   - Q
@@ -104,7 +104,7 @@ layers:
   - A
   - S
   - D
-  - {t: gameplus, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '3', h: '$$mdi:gesture-tap-hold$$'}
   - Gui+G
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -124,12 +124,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: base, h: toggle}
   - $$mdi:apple-keyboard-option$$
-  - nav
+  - '4'
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  gameplus:
+  '3':
   - '~'
   - F5
   - {t: '1', s: '!'}
@@ -172,7 +172,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  nav:
+  '4':
   - $$mdi:volume-high$$
   - $$mdi:keyboard-esc$$
   - $$mdi:backspace-reverse-outline$$
@@ -208,14 +208,14 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: game, h: toggle}
+  - {t: '2', h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  fun:
+  '5':
   - OUT USB
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RGB COLOR HSB(131,80,159)
@@ -261,25 +261,25 @@ layers:
 combos:
 - p: [26, 27]
   k: Ctl+C
-  l: [nav]
+  l: ['4']
 - p: [27, 28]
   k: Ctl+V
-  l: [nav]
+  l: ['4']
 - p: [2, 3]
   k: Ctl+F
-  l: [nav]
+  l: ['4']
 - p: [16, 17]
   k: Ctl+Z
-  l: [nav]
+  l: ['4']
 - p: [4, 5]
   k: Ctl+Y
-  l: [nav]
+  l: ['4']
 - p: [13, 14]
   k: Ctl+X
-  l: [nav]
+  l: ['4']
 - p: [26, 27, 28]
   k: Gui+Sft+S
-  l: [nav]
+  l: ['4']
 - p: [3, 4]
   k: {t: ., s: '>'}
   l: [num]
@@ -301,46 +301,3 @@ combos:
 - p: [32, 33]
   k: ':'
   l: [base]
-- p: [26, 27]
-  k: Ctl+C
-  l: [nav]
-- p: [28, 27]
-  k: Ctl+V
-  l: [nav]
-- p: [17, 16]
-  k: Ctl+Z
-  l: [nav]
-- p: [5, 4]
-  k: Ctl+Y
-  l: [nav]
-- p: [2, 3]
-  k: Ctl+F
-  l: [nav]
-- p: [14, 15, 16]
-  k: Ctl+A
-  l: [nav]
-- p: [25, 26]
-  k: X
-  l: [nav]
-- p: [7, 8]
-  k: .
-  l: [base]
-- p: [9, 8]
-  k: '"'
-  l: [base]
-- p: [27, 26, 28]
-  k: Gui+Sft+S
-  l: [nav]
-- p: [2, 3]
-  k: {t: ',', s: <}
-  l: [num]
-- p: [4, 3]
-  k: {t: ., s: '>'}
-  l: [num]
-- p: [16, 38]
-  k: {t: base, h: '$$mdi:gesture-tap-hold$$'}
-- p: [19, 39]
-  k: {t: base, h: '$$mdi:gesture-tap-hold$$'}
-- p: [16, 15, 14]
-  k: {t: '=', s: +}
-  l: [num]
