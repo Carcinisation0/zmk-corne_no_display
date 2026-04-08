@@ -67,10 +67,10 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
         BASE {
             display-name = "base";
             bindings = <
-&kp ESCAPE    &kp W         &kp L             &kp Y                 &kp P                  &kp B          &kp J             &kp F            &kp O             &kp U             &kp SEMI         &kp ENTER
-&kp A         &hml LGUI C   &hml LALT R       &hml LSHFT S          &hml LCTRL T           &kp G          &kp M            &hmr RCTRL N      &hmr RSHFT E      &hmr LALT I       &hmr RGUI A      &kp X
-&kp LEFT_GUI  &kp Q         &kp J             &kp V                 &kp D                  &kp K          &kp X            &kp H             &kp COMMA         &kp PERIOD        &kp SLASH        &none
-                            &kp LEFT_CONTROL  &mo 4  &lt 1 SPACE    &mt RIGHT_SHIFT SPACE  &sk RIGHT_ALT  &mo 5  
+&kp ESCAPE    &kp W         &kp L             &kp Y                 &kp P                  &kp B           &kp J            &kp F            &kp O             &kp U             &kp SEMI         &kp ENTER
+&kp A         &hml LGUI C   &hml LALT R       &hml LSHFT S          &hml LCTRL T           &kp G           &kp M            &hmr RCTRL N      &hmr RSHFT E      &hmr LALT I       &hmr RGUI A      &kp X
+&kp LEFT_GUI  &kp Q         &kp J             &kp V                 &kp D                  &kp K           &kp X            &kp H             &kp COMMA         &kp PERIOD        &kp SLASH        &none
+                            &mo 4             &kp SPACE             &mo NUM                &mt RSHFT SPACE &kp RALT         &mo 5
             >; 
         };
 
@@ -107,7 +107,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
 &kp C_VOL_UP  &kp ESC           &kp DEL               &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    &none  &kp LG(L)     &none         &none  &none  &none
 &kp C_VOL_DN  &kp ENTER         &kp LEFT              &kp DOWN          &kp RIGHT      &kp PG_UP            &none  &kp C_VOL_DN  &kp C_VOL_UP  &none  &none  &none
 &kp LEFT_GUI  &kp LEFT_CONTROL  &mt LEFT_ALT LG(TAB)  &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        &none  &none         &none         &none  &none  &to 2
-                                                      &none             &none          &none                &none  &none         &none
+                                                      &trans             &trans          &trans               &trans  &trans         &trans
             >;
         };
 
