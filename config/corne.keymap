@@ -53,6 +53,22 @@
 MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // lewostronne HRMs
 MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
 
+// Makro dla Timeless Layer-Tap (odpowiednik Twojego MAKE_HRM, ale dla warstw)
+#define MAKE_LTL(NAME, TRIGGER_POS) \
+    ZMK_BEHAVIOR(NAME, hold_tap, \
+        flavor = "balanced"; \
+        tapping-term-ms = <280>; \
+        quick-tap-ms = <QUICK_TAP_MS>; \
+        require-prior-idle-ms = <150>; \
+        bindings = <&mo>, <&kp>; \
+        hold-trigger-key-positions = <TRIGGER_POS>; \
+        hold-trigger-on-release; \
+    )
+
+// Tworzymy konkretne zachowania dla lewej i prawej ręki
+MAKE_LTL(ltl, KEYS_R THUMBS)  // warstwa na lewej ręce, triggery na prawej
+MAKE_LTL(ltr, KEYS_L THUMBS)  // warstwa na prawej ręce, triggery na lewej
+
 // default layer-tap config
 &lt {  
     flavor = "balanced";
@@ -70,7 +86,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
 &kp ESCAPE    &kp W         &kp L             &kp Y                 &kp P                  &kp B           &kp Z            &kp F            &kp O             &kp U             &kp SEMI         &kp ENTER
 &kp A         &hml LGUI C   &hml LALT R       &hml LSHFT S          &hml LCTRL T           &kp G           &kp M            &hmr RCTRL N      &hmr RSHFT E      &hmr LALT I       &hmr RGUI A      &kp X
 &kp LEFT_GUI  &kp Q         &kp J             &kp V                 &kp D                  &kp K           &kp X            &kp H             &kp COMMA         &kp PERIOD        &kp SLASH        &none
-                            &mo NAV           &lt NUM SPACE         &mo NAV                &mt RSHFT SPACE &kp RALT         &mo FUN
+                            &mo NAV           &lt NAV SPACE         &mo NUM                &kp RSHFT       &mt RALT SPACE   &mo FUN
             >;
         };
 
