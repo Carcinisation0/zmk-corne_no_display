@@ -44,7 +44,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
   num:
-  - {t: '0', s: )}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -56,7 +56,7 @@ layers:
   - {t: \, s: '|'}
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '5', s: '%'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
