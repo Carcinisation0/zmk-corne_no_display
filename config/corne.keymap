@@ -102,10 +102,10 @@ MAKE_LTL(ltr, KEYS_L THUMBS)  // warstwa na prawej ręce, triggery na lewej
 
         GAME {
             bindings = <
-&kp N1  &kp TAB           &kp Q  &kp W     &kp E  &kp R        &kp TILDE  &none        &kp UP    &none          &none      &none
-&kp N2  &kp LSHIFT        &kp A  &kp S     &kp D  &sl 3        &kp LG(G)  &kp LEFT     &kp DOWN  &kp RIGHT      &kp ENTER  &kp TILDE
-&kp N3  &kp LEFT_CONTROL  &kp Z  &kp X     &kp C  &kp F        &none      &kp PAGE_UP  &none     &kp PAGE_DOWN  &none      &to 0
-                                 &kp LALT  &mo 4  &kp SPACE    &none      &none        &none
+&kp N1  &kp TAB           &kp Q  &kp W     &kp E       &kp R        &kp TILDE  &none        &kp UP    &none          &none      &none
+&kp N2  &kp LSHIFT        &kp A  &kp S     &kp D       &sl 3        &kp LG(G)  &kp LEFT     &kp DOWN  &kp RIGHT      &kp ENTER  &kp TILDE
+&kp N3  &kp LEFT_CONTROL  &kp Z  &kp X     &kp C       &kp F        &none      &kp PAGE_UP  &none     &kp PAGE_DOWN  &none      &to 0
+                                 &mo NAV   &kp SPACE   &kp ALT      &none      &none        &none
             >;
         };
 
