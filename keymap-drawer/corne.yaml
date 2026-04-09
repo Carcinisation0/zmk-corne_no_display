@@ -7,7 +7,7 @@ layers:
   - Y
   - P
   - B
-  - J
+  - Z
   - F
   - O
   - U
@@ -40,9 +40,9 @@ layers:
   - '4'
   - $$mdi:keyboard-space$$
   - num
+  - '5'
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
-  - '5'
   num:
   - {t: '0', s: )}
   - {t: '6', s: ^}
@@ -255,9 +255,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [26, 27]
   k: Ctl+C
