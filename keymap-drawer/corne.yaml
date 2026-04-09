@@ -123,9 +123,9 @@ layers:
   - PgDn
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: base, h: toggle}
-  - $$mdi:apple-keyboard-option$$
   - '4'
   - $$mdi:keyboard-space$$
+  - ALT
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
