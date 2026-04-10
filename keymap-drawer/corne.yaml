@@ -12,8 +12,8 @@ layers:
   - O
   - U
   - {t: ;, s: ':'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - A
   - {t: C, h: LGUI}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
@@ -24,7 +24,7 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: A, h: RGUI}
-  - X
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
   - Q
   - J
@@ -98,7 +98,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: base, h: toggle}
   - {t: '2', s: '@'}
   - $$mdi:apple-keyboard-shift$$
   - A
@@ -110,7 +110,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - '~'
+  - {t: base, h: toggle}
   - {t: '3', s: '#'}
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -196,7 +196,7 @@ layers:
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '2', h: toggle}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
   - {t: 'Gui+$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-option$$'}
