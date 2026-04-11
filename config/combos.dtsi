@@ -31,6 +31,8 @@ ZMK_COMBO(undo,     &kp LC(Z),      LM1 LM0,    NAV, COMBO_TERM_FAST)
 ZMK_COMBO(redo,     &kp LC(Y),      LT1 LT0,    NAV, COMBO_TERM_FAST)
 // ctrl x LM3,4
 ZMK_COMBO(cut,      &kp LC(X),      LM4 LM3,    NAV, COMBO_TERM_FAST)
+// ctrl a 
+ZMK_COMBO(all,      &kp LC(A),      LM4 LM3 LM2,    NAV, COMBO_TERM_FAST)
 // win shft s
 ZMK_COMBO(snip,  &kp LG(LS(S)),  LB3 LB2 LB1,  NAV,       COMBO_TERM_FAST)
 
