@@ -41,7 +41,7 @@ layers:
   - '4'
   - {t: '$$mdi:keyboard-space$$', h: num}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-option$$
   - '5'
   num:
   - {t: '$$mdi:backspace$$', type: backspace}
