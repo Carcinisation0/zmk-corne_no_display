@@ -50,6 +50,6 @@ ZMK_COMBO(sqt,      &kp SQT,        RT1 RT2,    BASE, COMBO_TERM_FAST)
 // " RT2,3
 ZMK_COMBO(dqt,      &kp DQT,        RT2 RT3,    BASE, COMBO_TERM_FAST)
 // ; RB1,2
-ZMK_COMBO(semi,     &kp SEMI,       RB1 RB2,    BASE, COMBO_TERM_FAST)
+// ZMK_COMBO(semi,     &kp SEMI,       RB1 RB2,    BASE, COMBO_TERM_FAST)
 // : RB2,3
-ZMK_COMBO(colon,    &kp COLON,      RB2 RB3,    BASE, COMBO_TERM_FAST)
+// ZMK_COMBO(colon,    &kp COLON,      RB2 RB3,    BASE, COMBO_TERM_FAST)
