@@ -26,11 +26,11 @@ layers:
   - {t: A, h: RGUI}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
-  - Q
+  - K
   - J
   - V
   - D
-  - K
+  - Q
   - X
   - H
   - {t: ',', s: <}
