@@ -93,9 +93,9 @@ MAKE_LTL(ltr, KEYS_L THUMBS)  // warstwa na prawej ręce, triggery na lewej
         NUM {
             display-name = "num";
             bindings = <
-&kp BACKSPACE     &kp N6     &kp N7           &kp N8     &kp N9    &kp N0       &none                 &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &kp PIPE   &none
-&kp ENTER     &kp N1     &kp N2           &kp N3     &kp N4    &kp N5       &none                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &kp EQUAL  &kp ENTER
-&kp EQUAL  &kp SLASH  &kp KP_MULTIPLY  &kp MINUS  &kp PLUS  &kp EQUAL    &none                 &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &none
+&kp BACKSPACE &kp N6     &kp N7           &kp N8     &kp N9    &kp N0       &kp SEMI              &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &kp PIPE   &none
+&kp ENTER     &kp N1     &kp N2           &kp N3     &kp N4    &kp N5       &kp COLON             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &kp EQUAL  &kp ENTER
+&kp EQUAL     &kp SLASH  &kp KP_MULTIPLY  &kp MINUS  &kp PLUS  &none        &none                 &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE      &kp TILDE  &none
                                        &trans     &trans    &trans       &mt LEFT_SHIFT SPACE  &trans                &trans
             >;
         };
