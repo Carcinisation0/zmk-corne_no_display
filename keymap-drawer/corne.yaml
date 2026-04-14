@@ -50,7 +50,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: ;, s: ':'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
@@ -62,7 +62,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ':'
   - (
   - )
   - _
@@ -73,7 +73,7 @@ layers:
   - KP MULTIPLY
   - {t: '-', s: _}
   - +
-  - {t: '=', s: +}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '{'
   - '}'
@@ -297,10 +297,4 @@ combos:
   l: [base]
 - p: [8, 9]
   k: '"'
-  l: [base]
-- p: [31, 32]
-  k: {t: ;, s: ':'}
-  l: [base]
-- p: [32, 33]
-  k: ':'
   l: [base]
