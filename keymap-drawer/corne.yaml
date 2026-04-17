@@ -28,7 +28,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - K
   - J
-  - '&hnl LS(LC(LALT)) V'
+  - {t: V, h: '$$mdi:star-three-points$$'}
   - {t: D, h: Meh+LGUI}
   - Q
   - X
