@@ -42,7 +42,7 @@
 #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
     ZMK_BEHAVIOR(NAME, hold_tap, \
         flavor = "balanced"; \
-        tapping-term-ms = <200>; \
+        tapping-term-ms = <280>; \
         quick-tap-ms = <QUICK_TAP_MS>; \
         require-prior-idle-ms = <150>; \
         bindings = <HOLD>, <TAP>; \
@@ -65,7 +65,6 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // prawostronne HRMs
         hold-trigger-on-release; \
     )
 
-// Tworzymy konkretne zachowania dla lewej i prawej ręki
 MAKE_LTL(ltl, KEYS_R THUMBS)  // warstwa na lewej ręce, triggery na prawej
 MAKE_LTL(ltr, KEYS_L THUMBS)  // warstwa na prawej ręce, triggery na lewej
 
@@ -84,8 +83,8 @@ MAKE_LTL(ltr, KEYS_L THUMBS)  // warstwa na prawej ręce, triggery na lewej
             display-name = "base";
             bindings = <
 &kp ESCAPE    &kp W         &kp L             &kp Y                 &kp P                  &kp B           &kp Z            &kp F             &kp O             &kp U             &kp SEMI         &kp BACKSPACE
-&kp ENTER     &hml LGUI C   &hml LALT R       &hml LSHFT S          &hml LCTRL T           &hml HYP G           &kp M            &hmr RCTRL N      &hmr RSHFT E      &hmr LALT I       &hmr RGUI A      &none
-&kp LEFT_GUI  &kp K         &kp J             &kp V                 &kp D                  &kp Q           &kp X            &kp H             &kp COMMA         &kp PERIOD        &kp SLASH        &none
+&kp ENTER     &hml LGUI C   &hml LALT R       &hml LSHFT S          &hml LCTRL T           &kp G           &kp M            &hmr RCTRL N      &hmr RSHFT E      &hmr LALT I       &hmr RGUI A      &kp ENTER
+&kp LEFT_GUI  &kp K         &kp J             &hnl MEH V            &hml HYP D             &kp Q           &kp X            &hmr HYP H        &hmr MEH COMMA    &kp PERIOD        &kp SLASH        &none
                                               &kp LSHFT             &mo NAV                &lt NUM SPACE   &mt RSHFT SPACE  &kp RALT          &mo FUN
             >;
         };
@@ -120,18 +119,18 @@ MAKE_LTL(ltr, KEYS_L THUMBS)  // warstwa na prawej ręce, triggery na lewej
 
         NAV {
             bindings = <
-&kp C_VOL_UP  &kp ESC           &kp DEL               &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    &none  &kp LG(L)     &none         &none  &none  &to GAME
-&kp C_VOL_DN  &kp ENTER         &kp LEFT              &kp DOWN          &kp RIGHT      &kp PG_UP            &none  &kp C_VOL_DN  &kp C_VOL_UP  &none  &none  &to GAME
-&kp LEFT_GUI  &kp LEFT_CONTROL  &mt LEFT_ALT LG(TAB)  &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        &none  &none         &none         &none  &none  &to GAME
+&kp C_VOL_UP  &kp ESC           &kp DEL               &kp UP            &kp BACKSPACE  &kp LC(BACKSPACE)    &none          &kp LG(L)     &none         &none  &none  &to GAME
+&kp C_VOL_DN  &kp ENTER         &kp LEFT              &kp DOWN          &kp RIGHT      &kp PG_UP            &kp LS(ENTER)  &kp C_VOL_DN  &kp C_VOL_UP  &none  &none  &to GAME
+&kp LEFT_GUI  &kp LEFT_CONTROL  &mt LEFT_ALT LG(TAB)  &kp C_PLAY_PAUSE  &kp TAB        &kp PAGE_DOWN        &none          &none         &none         &none  &none  &to GAME
                                                       &trans             &trans          &trans               &trans  &trans         &trans
             >;
         };
 
         FUN {
             bindings = <
-&out OUT_USB  &none            &rgb_ug RGB_COLOR_HSB(131,80,159)   &none            &none            &rgb_ug RGB_ON     &none  &kp F7  &kp F8  &kp F9  &kp F12  &none
+&out OUT_USB  &none            &rgb_ug RGB_COLOR_HSB(131,80,159)   &none            &none            &rgb_ug RGB_ON     &none  &kp F7  &kp F8  &kp F9  &kp F10  &none
 &none         &none            &rgb_ug RGB_COLOR_HSB(255,230,199)  &none            &none            &rgb_ug RGB_OFF    &none  &kp F4  &kp F5  &kp F6  &kp F11  &none
-&none         &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(128,100,10)   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF    &none  &kp F1  &kp F2  &kp F3  &kp F10  &none
+&none         &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(128,100,10)   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF    &none  &kp F1  &kp F2  &kp F3  &kp F12  &none
                                                                    &none            &none            &none              &none  &none   &none
             >;
         };
