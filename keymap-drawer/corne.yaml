@@ -29,10 +29,10 @@ layers:
   - K
   - J
   - {t: V, h: '$$mdi:star-three-points$$'}
-  - {t: D, h: Meh+LGUI}
+  - D
   - Q
   - X
-  - {t: H, h: Meh+LGUI}
+  - H
   - {t: ',', h: '$$mdi:star-three-points$$', s: <}
   - .
   - {t: /, s: '?'}
