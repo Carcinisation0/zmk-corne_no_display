@@ -36,7 +36,7 @@ layers:
   - {t: ',', h: '$$mdi:star-three-points$$', s: <}
   - .
   - {t: /, s: '?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
   - '4'
   - {t: '$$mdi:keyboard-space$$', h: num}
